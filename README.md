@@ -5,6 +5,10 @@ Multi-Threaded Port Scanner With Python
 
 This is a simple Python-based port scanner that allows you to scan a range of ports on a given IP address or domain. It supports multi-threading for faster scans, customizable port ranges, and an option to input user-defined IPs and threads.
 
+## Installation
+```bash
+git clone https://github.com/ci33o1/PortScanner.git
+```
 ## Features
 
 - **Scan IP/Domain**: You can scan both IP addresses and domain names.
@@ -56,8 +60,12 @@ You can use the following command-line arguments to configure the scanner:
 - `-t`, `--threads`: The number of threads to use for scanning (default is 35).
 
 Example usage:
-
+- **Windows**
 ```bash
 python portscanner.py --ip example.com --ports 0 1000 --threads 50
 ```
+- **Linux**
+```bash
+python3 portscanner.py --ip example.com --port 0 1000 --threads 50
+``` 
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRkNG8wazVmNDR1aDMyYXBpaXEzNmI2MmJ1bXJma3lkbHI1N3hvNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/49t2xI2qDWfPNk6esL/giphy.gif" width=1000>
