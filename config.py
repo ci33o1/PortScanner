@@ -1,12 +1,14 @@
-import time, datetime, re
+import time, datetime, re, colorama
+from colorama import Fore, Style
+colorama.init()
 
-# Colors
-PURPLE = "\033[1;35m"
-BLUE = "\033[1;34m"
-CYAN = "\033[1;36m"
-RED = "\033[31m"
-WHITE = "\033[37m"
-RESET = "\033[0m"
+# Colours 
+PURPLE = Fore.MAGENTA + Style.BRIGHT
+BLUE = Fore.BLUE + Style.BRIGHT
+CYAN = Fore.CYAN + Style.BRIGHT
+RED = Fore.RED + Style.BRIGHT
+WHITE = Fore.WHITE + Style.BRIGHT
+RESET = Style.RESET_ALL
 
 # Default threads if the user didn't enter number of threads
 defaultThreads = 35
@@ -110,3 +112,4 @@ def checkIp(ip):
         return True
     else:
         return False
+
