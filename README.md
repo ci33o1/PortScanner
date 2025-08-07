@@ -22,14 +22,8 @@ git clone https://github.com/ci33o1/PortScanner.git
 Before using this port scanner, ensure you have the following installed:
 
 - Python 3.7+
-- The following Python libraries:
-  - `socket`
-  - `argparse`
-  - `concurrent.futures`
-  - `time`
-  - `sys`
-
-These are part of Python's standard library, so no extra installation should be needed for the dependencies.
+- The following Python library:
+  - `colorama`
 
 ## Installation
 
